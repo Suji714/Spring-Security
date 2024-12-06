@@ -1,0 +1,42 @@
+package com.coforge.training.securitydemo.config;
+
+import java.beans.beancontext.BeanContext;
+
+import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.web.authentication.AuthenticationConverter;
+
+/**
+*Author        : Manthri.Sujitha
+*Date          : 3 Dec 2024
+*Time          : 9:42:42 am
+*Project Name  : security-demo
+*/
+
+
+/*
+ * @Configuration is an annotation used to mark a class that contains one or more 
+ * @Bean method declarations. 
+ * This annotation is used to configure the application context by creating and 
+ * returning either a single instance of a bean or a set of instances. 
+ * The @Configuration class is primarily used for declarative configuration of 
+ * the application context. 
+ * When used in combination with @Bean, it allows the developer to define the 
+ * components and beans needed to build the application. 
+ */
+
+@Configuration
+@EnableWebSecurity  //enables web security configurations
+public class SecurityConfig {
+	
+	@Bean
+	public AuthenticationManager authenticationManager (AuthenticationConfiguration authConfig) throws Exception {
+		return authConfig.getAuthenticationManager();
+	}
+	         
+
+}

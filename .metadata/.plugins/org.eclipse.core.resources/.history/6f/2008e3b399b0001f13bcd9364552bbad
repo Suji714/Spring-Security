@@ -1,0 +1,10 @@
+package com.example.training.security.config;
+/**
+*Author        : Manthri.Sujitha
+*Date          : 2 Dec 2024
+*Time          : 3:51:18 pm
+*Project Name  : hello-world
+*/
+public class SecurityConfig {
+
+}

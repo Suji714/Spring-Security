@@ -1,0 +1,10 @@
+package com.coforge.training.securitydemo.controller;
+/**
+*Author        : Manthri.Sujitha
+*Date          : 3 Dec 2024
+*Time          : 10:05:23 am
+*Project Name  : security-demo
+*/
+public class UserController {
+
+}

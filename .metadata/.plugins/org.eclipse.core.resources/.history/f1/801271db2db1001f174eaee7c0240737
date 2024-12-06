@@ -1,0 +1,10 @@
+package com.coforge.training.securitydemo.config;
+/**
+*Author        : Manthri.Sujitha
+*Date          : 3 Dec 2024
+*Time          : 9:42:42 am
+*Project Name  : security-demo
+*/
+public class SecurityConfig {
+
+}

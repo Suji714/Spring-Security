@@ -1,0 +1,10 @@
+package com.example.training.security.controller;
+/**
+*Author        : Manthri.Sujitha
+*Date          : 2 Dec 2024
+*Time          : 3:24:23 pm
+*Project Name  : hello-world
+*/
+public class HelloWorldController {
+
+}

@@ -1,0 +1,8 @@
+spring.application.name=hello-world
+
+
+spring.security.user.name=admin
+#Basic authentication uses Base64 encoded username and password. 
+#It doesnt perform session management
+#Data is sent in http headers
+spring.security.user.password= 1729
